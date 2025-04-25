@@ -1,39 +1,58 @@
 # libs
-import logging
 import pandas as pd
 import os
+from source.utils.helpers import configurar_logger, DIR_RAW_DATA
 
-# definição do diretorio de logs 
-log_dir = os.path.join(os.getcwd(), 'logs')
+# ===== CONFIGURAÇÕES =====
 
-# caminho completo do log de extração 
-log_file = os.path.join(log_dir, 'log_extracao_olist_files_1.log')
+# Config arquivos logs
+logger = configurar_logger('log_extracao.log')
 
-# config do logger
-logging.basicConfig(
-    filename=log_file, # caminho do arquivo log
-    level=logging.INFO, # nível do log
-    format='%(asctime)s - %(levelname)s - %(message)s', # formato do log
-    datefmt='%d-%m-%Y %H:%M:%S' # formato da data
-)
+# ===== EXECUÇÃO =====
 
-# caminho arquivos 
-caminho = r'C:\Users\Daniel\OneDrive\Ambiente de Trabalho\Projetos ETL\Olist brazil\ETL\data'
-
-# log: inicio do processo
-logging.info(f'Início leitura dos arquivos do diretorio: {caminho}')
-
-try: 
-    # listar arquivos no diretorio
-    arquivos = os.listdir(caminho)
-    logging.info("Arquivos no diretorio:", {arquivos})
+# funcão para ler os arquivos CSV
+def ler_csv(caminho_arquivos):
+    try:
+        df = pd.read_csv(caminho_arquivos, encoding='utf-8')
+        logger.info(f'Arquivo {os.path.basename(caminho_arquivos)} carregado com sucesso.')
+        return df
+    except Exception as e:
+        logger.error(f'Erro ao ler o arquivo {caminho_arquivos}: {e}')
+        return None
     
-    # verificar tipos de arquivos do diretorio
-    formatos = set([arquivos.split('.')[1] for arquivos in arquivos if '.' in arquivos])
-    logging("Extensões no diretorio:", {str(formatos)})
+# função para carregar todos os arquivos do diretorio RAW e armazenar em um dicionario
+def carregar_arquivos():
+    dataframes = {}
 
-except Exception as e:
-    logging.error(f'Ocorreu um erro: {str(e)}')
+    # verificar se o diretorio está ok e existe
+    if not os.path.exists(DIR_RAW_DATA):
+        logger.error(f'Diretorio de dados não encotrado: {DIR_RAW_DATA}')
+        return dataframes
+    
+    arquivos = os.listdir(DIR_RAW_DATA)
 
-# log: fim do processo
-logging.info('Processo finalizado')
+    # verificar se o diretorio contém os arquivos
+    if not arquivos:
+        logger.warning(f'Nenhum arquivo foi encontrado no diretorio: {DIR_RAW_DATA}')
+        return dataframes
+    
+    # verificar se todos arquivos tem extensão CSV
+    arquivos_csv = [arquivo for arquivo in arquivos if arquivo.endswith('csv')]
+
+    # loga todos os arquivos encontrados
+    logger.info(f'Arquivos CSV encontrados: {arquivos_csv}')
+
+    for arquivo in arquivos_csv:
+        caminho_arquivo = os.path.join(DIR_RAW_DATA, arquivo)
+        if os.path.isfile(caminho_arquivo):
+            df = ler_csv(caminho_arquivo)
+            if df is not None:
+                nome = os.path.splitext(arquivo)[0]
+                dataframes[nome] = df
+            else:
+                logger.warning(f'Falha ao ler arquivo {arquivo}')
+    
+    logger.info('Processo de extração concluído!')
+
+    return dataframes   
+        
