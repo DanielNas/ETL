@@ -1,0 +1,98 @@
+25-04-2025 09:46:34 - INFO - Arquivos CSV encontrados: ['olist_customers_dataset.csv', 'olist_geolocation_dataset.csv', 'olist_orders_dataset.csv', 'olist_order_items_dataset.csv', 'olist_order_payments_dataset.csv', 'olist_order_reviews_dataset.csv', 'olist_products_dataset.csv', 'olist_sellers_dataset.csv', 'product_category_name_translation.csv']
+25-04-2025 09:46:34 - INFO - Arquivo olist_customers_dataset.csv carregado com sucesso.
+25-04-2025 09:46:35 - INFO - Arquivo olist_geolocation_dataset.csv carregado com sucesso.
+25-04-2025 09:46:35 - INFO - Arquivo olist_orders_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo olist_order_items_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo olist_order_payments_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo olist_order_reviews_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo olist_products_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo olist_sellers_dataset.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Arquivo product_category_name_translation.csv carregado com sucesso.
+25-04-2025 09:46:36 - INFO - Processo de extração concluído!
+25-04-2025 09:49:19 - INFO - Inicio da extração dos arquivos...
+25-04-2025 09:49:19 - INFO - Arquivos CSV encontrados: ['olist_customers_dataset.csv', 'olist_geolocation_dataset.csv', 'olist_orders_dataset.csv', 'olist_order_items_dataset.csv', 'olist_order_payments_dataset.csv', 'olist_order_reviews_dataset.csv', 'olist_products_dataset.csv', 'olist_sellers_dataset.csv', 'product_category_name_translation.csv']
+25-04-2025 09:49:19 - INFO - Arquivo olist_customers_dataset.csv carregado com sucesso.
+25-04-2025 09:49:20 - INFO - Arquivo olist_geolocation_dataset.csv carregado com sucesso.
+25-04-2025 09:49:20 - INFO - Arquivo olist_orders_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo olist_order_items_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo olist_order_payments_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo olist_order_reviews_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo olist_products_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo olist_sellers_dataset.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Arquivo product_category_name_translation.csv carregado com sucesso.
+25-04-2025 09:49:21 - INFO - Processo de extracao concluído!
+25-04-2025 14:30:28 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 14:30:28 - INFO - Arquivos CSV encontrados: ['olist_customers_dataset.csv', 'olist_geolocation_dataset.csv', 'olist_orders_dataset.csv', 'olist_order_items_dataset.csv', 'olist_order_payments_dataset.csv', 'olist_order_reviews_dataset.csv', 'olist_products_dataset.csv', 'olist_sellers_dataset.csv', 'product_category_name_translation.csv']
+25-04-2025 14:30:28 - INFO - Arquivo olist_customers_dataset.csv carregado com sucesso.
+25-04-2025 14:30:28 - INFO - Arquivo olist_geolocation_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_orders_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_order_items_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_order_payments_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_order_reviews_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_products_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo olist_sellers_dataset.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Arquivo product_category_name_translation.csv carregado com sucesso.
+25-04-2025 14:30:29 - INFO - Processo de extracao concluido!
+25-04-2025 15:28:14 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 15:28:14 - INFO - Arquivos CSV encontrados: ['olist_customers_dataset.csv', 'olist_geolocation_dataset.csv', 'olist_orders_dataset.csv', 'olist_order_items_dataset.csv', 'olist_order_payments_dataset.csv', 'olist_order_reviews_dataset.csv', 'olist_products_dataset.csv', 'olist_sellers_dataset.csv', 'product_category_name_translation.csv']
+25-04-2025 15:28:14 - INFO - Arquivo olist_customers_dataset.csv carregado com sucesso.
+25-04-2025 15:28:14 - INFO - Arquivo olist_geolocation_dataset.csv carregado com sucesso.
+25-04-2025 15:28:15 - INFO - Arquivo olist_orders_dataset.csv carregado com sucesso.
+25-04-2025 15:28:15 - INFO - Arquivo olist_order_items_dataset.csv carregado com sucesso.
+25-04-2025 15:28:15 - INFO - Arquivo olist_order_payments_dataset.csv carregado com sucesso.
+25-04-2025 15:28:16 - INFO - Arquivo olist_order_reviews_dataset.csv carregado com sucesso.
+25-04-2025 15:28:16 - INFO - Arquivo olist_products_dataset.csv carregado com sucesso.
+25-04-2025 15:28:16 - INFO - Arquivo olist_sellers_dataset.csv carregado com sucesso.
+25-04-2025 15:28:16 - INFO - Arquivo product_category_name_translation.csv carregado com sucesso.
+25-04-2025 15:28:16 - INFO - Processo de extracao concluido!
+25-04-2025 15:43:10 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 15:43:37 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 15:44:09 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 16:12:56 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 16:12:56 - INFO - Iniciando pipeline ETL Olist
+25-04-2025 16:12:56 - INFO - Iniciando etapa de extracao
+25-04-2025 16:13:51 - INFO - Inicio da extracao dos arquivos...
+25-04-2025 16:13:51 - INFO - Iniciando pipeline ETL Olist
+25-04-2025 16:13:51 - INFO - Iniciando etapa de extracao
+25-04-2025 16:13:51 - INFO - Arquivos CSV encontrados: ['olist_customers_dataset.csv', 'olist_geolocation_dataset.csv', 'olist_orders_dataset.csv', 'olist_order_items_dataset.csv', 'olist_order_payments_dataset.csv', 'olist_order_reviews_dataset.csv', 'olist_products_dataset.csv', 'olist_sellers_dataset.csv', 'product_category_name_translation.csv']
+25-04-2025 16:13:51 - INFO - Arquivo olist_customers_dataset.csv carregado com sucesso.
+25-04-2025 16:13:51 - INFO - Arquivo olist_geolocation_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_orders_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_order_items_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_order_payments_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_order_reviews_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_products_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo olist_sellers_dataset.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Arquivo product_category_name_translation.csv carregado com sucesso.
+25-04-2025 16:13:52 - INFO - Processo de extracao concluido!
+25-04-2025 16:13:52 - INFO - Extracao concluida com sucesso
+25-04-2025 16:13:52 - INFO - Iniciando etapa de transformacoes
+25-04-2025 16:13:52 - INFO - Iniciando transformacao para: olist_customers_dataset
+25-04-2025 16:13:52 - INFO - Transformando tabela: clientes
+25-04-2025 16:13:53 - INFO - Tabela transformada e salva em data/processed\olist_customers_dataset_clean.csv
+25-04-2025 16:13:53 - INFO - Iniciando transformacao para: olist_geolocation_dataset
+25-04-2025 16:13:57 - INFO - Tabela transformada e salva em data/processed\olist_geolocation_dataset_clean.csv
+25-04-2025 16:13:57 - INFO - Iniciando transformacao para: olist_orders_dataset
+25-04-2025 16:13:57 - INFO - Transformando tabela: pedidos
+25-04-2025 16:13:58 - INFO - Tabela transformada e salva em data/processed\olist_orders_dataset_clean.csv
+25-04-2025 16:13:58 - INFO - Iniciando transformacao para: olist_order_items_dataset
+25-04-2025 16:13:58 - INFO - Transformando tabela: itens pedidos
+25-04-2025 16:13:59 - INFO - Tabela transformada e salva em data/processed\olist_order_items_dataset_clean.csv
+25-04-2025 16:13:59 - INFO - Iniciando transformacao para: olist_order_payments_dataset
+25-04-2025 16:13:59 - INFO - Transfomando tabela: pagamentos
+25-04-2025 16:13:59 - INFO - Tabela transformada e salva em data/processed\olist_order_payments_dataset_clean.csv
+25-04-2025 16:13:59 - INFO - Iniciando transformacao para: olist_order_reviews_dataset
+25-04-2025 16:13:59 - INFO - Transformando tabela: reviews
+25-04-2025 16:14:00 - INFO - Tabela transformada e salva em data/processed\olist_order_reviews_dataset_clean.csv
+25-04-2025 16:14:00 - INFO - Iniciando transformacao para: olist_products_dataset
+25-04-2025 16:14:00 - INFO - Transformando tabela: produtos
+25-04-2025 16:14:00 - INFO - Tabela transformada e salva em data/processed\olist_products_dataset_clean.csv
+25-04-2025 16:14:00 - INFO - Iniciando transformacao para: olist_sellers_dataset
+25-04-2025 16:14:00 - INFO - Transformando tabela: fornecedores
+25-04-2025 16:14:00 - INFO - Tabela transformada e salva em data/processed\olist_sellers_dataset_clean.csv
+25-04-2025 16:14:00 - INFO - Iniciando transformacao para: product_category_name_translation
+25-04-2025 16:14:00 - INFO - Transformando tabela: categorias de produtos
+25-04-2025 16:14:00 - INFO - Tabela transformada e salva em data/processed\product_category_name_translation_clean.csv
+25-04-2025 16:14:00 - INFO - Transformacoes concluidas para todas as tabelas!
+25-04-2025 16:14:00 - INFO - Transformacao concluida com sucesso
+25-04-2025 16:14:00 - INFO - Pipeline ETL finalizado com sucesso
